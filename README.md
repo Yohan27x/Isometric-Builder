@@ -1,2 +1,4 @@
 # Isometric-Tiles-Builder
-An Isometric Builder made with Pygame
+An Isometric Builder anyone can play with to create whatever he want.
+
+Made with Pygame.
