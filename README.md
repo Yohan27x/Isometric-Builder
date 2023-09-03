@@ -3,7 +3,6 @@ An Isometric Builder anyone can play creatively with .
 Made with Pygame.
 
 Controls : 
-
 - Press M to reset the tiles
 - Press I to turn on/off the grid
 - Press Z to delete the previous tile you placed (undo)
