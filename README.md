@@ -1,5 +1,5 @@
 # Isometric-Tiles-Builder
-An Isometric Builder anyone can play creatively with .
+An Isometric Builder anyone can play creatively with.
 Made with Pygame.
 
 Controls : 
