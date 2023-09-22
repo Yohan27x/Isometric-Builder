@@ -17,10 +17,9 @@ from IsoTile import IsoTile
 # - add to github
 # - 
 # - random tile or let the user choose his own tile, for color reasons
-# - add a music and fx -> Reaper, do it yourself ! 
+# - add a music and fx -> Reaper 
 # - it's too static, add movement : random wave, up - down with idk ... Whats the feeling you want the user to feel ? 
 # - 
-
 
 # ---------- DONE ---------------
 # -OK :  add "on top" placement to place tile on mouse loc -> ie two ways of placing tile, one at the mouse loc ( the most trivial), and one to place it behind ( you cant to it with the first one )
@@ -160,15 +159,9 @@ def add_tile(x,y):
 
 removed_tiles = []
 def remove_last_tile():
-    # retire de la liste non ordonnée
-    # le retire de la liste ordonné
-    # sort la liste ordonné
     if(len(non_ordered_tiles) != 0):
-        print("iin")
         last_added_tile = non_ordered_tiles.pop(len(non_ordered_tiles)-1)
         if last_added_tile.tween._animating == False:
-            print(last_added_tile)
-            print("iin deuuux")
             last_added_tile.is_removed(TWEEN_DURATION )
             last_added_tile.tween.start()
             # removed_tiles.append(last_added_tile)
@@ -178,11 +171,6 @@ def remove_last_tile():
 reset_tiles(5,5)
 non_ordered_tiles = ordered_tiles.copy()
 non_ordered_tiles.pop(0)
-
-# select_easing = tiles[0].get_easing()
-# select_easing = select_easing.replace('.','')
-# print(select_easing)
-
 
 while True :
 
